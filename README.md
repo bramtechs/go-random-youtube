@@ -7,8 +7,8 @@ go build site.go && \
 ./site
 ```
 
-The site is hosted on localhost:10080 by default.
+The site is hosted on localhost:8090 by default.
 
 Live preview: https://brambasiel.xyz/randomyoutube
 
-**Note: Unfortunately, most YouTube videos are blocked on external websites. The embedded player will only work on localhost :(**
+**Note: Unfortunately, some YouTube videos are blocked on external websites.**
