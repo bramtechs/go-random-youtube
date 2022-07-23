@@ -1,0 +1,32 @@
+body {
+    background-color: darkgray;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    border-radius: 10px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    background-color: pink;
+    text-align: center;
+}
+
+main {
+    border-radius: 10px;
+    border-style: solid;
+    width: 80vw;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    max-height: 70px;
+}
+
+h1 {
+    color: red;
+}

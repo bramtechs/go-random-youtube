@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Random YouTube</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="description" content="A page that shows you a random YouTube video!">
+    <meta name="keywords" content="random youtube generator">
+</head>
+
+<body>
+    <header>
+        <h1>Random YouTube video!</h1>
+    </header>
+    <main>
+        <p>Discover over !AMOUNT! random videos!<br>Refresh the page for a new video.</p>
+        <iframe id="player" type="text/html" width="640" height="390"
+            src="http://www.youtube.com/embed/!ID!?enablejsapi=1" frameborder="0"></iframe>
+        <p>Generated url: <a href="http://www.youtube.com/embed/!ID!">http://www.youtube.com/embed/!ID!</a></p>
+        <p style="font-style:italic">Video ID's are fetched from the <a href="https://sponsor.ajay.app/database">Sponsorblock database</a>.<br>View the source code on <a href="">Github</a> or <a href="">Gitea</a>.</p>
+    </main>
+</body>
+
+</html>
