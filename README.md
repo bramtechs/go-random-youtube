@@ -7,4 +7,4 @@ go build site.go && \
 ./site
 ```
 
-The site is hosted on localhost:8080 by default.
+The site is hosted on localhost:10080 by default.
