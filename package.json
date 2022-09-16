@@ -1,0 +1,29 @@
+{
+  "name": "go-random-youtube",
+  "version": "1.0.0",
+  "description": "A site that shows you a random Youtube video!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js utils.js",
+    "start": "node index.js utils.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramtechs/go-random-youtube.git"
+  },
+  "keywords": [
+    "random",
+    "youtube"
+  ],
+  "author": "brambasiel",
+  "license": "GNUv3",
+  "bugs": {
+    "url": "https://github.com/bramtechs/go-random-youtube/issues"
+  },
+  "homepage": "https://github.com/bramtechs/go-random-youtube#readme",
+  "dependencies": {
+    "arraybuffer-to-string": "^1.0.2",
+    "express": "^4.18.1",
+    "save-dev": "^0.0.1-security"
+  }
+}

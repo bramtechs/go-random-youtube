@@ -1,2 +1,0 @@
-#!/bin/bash
-wget https://api.sponsor.ajay.app/database/videoInfo.csv
