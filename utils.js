@@ -22,7 +22,7 @@ function isDataDownloaded(){
 async function downloadDataIfNeeded(){
     if (isDataDownloaded()) {
         //file exists
-        console.log("Video list already downloaded");
+        console.log("Video list is downloaded");
     } else {
         await downloadFile(LIST_URL, INFO_FILE)
             .then(res => console.log(res))
@@ -30,6 +30,7 @@ async function downloadDataIfNeeded(){
         console.log("Video list downloaded!");
     }
 }
+downloadDataIfNeeded();
 
 async function downloadFile(url, fileFullPath) {
     console.info('Downloading list from url: ' + url)

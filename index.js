@@ -2,13 +2,16 @@ const express = require('express');
 const app = express();
 const fs = require("fs");
 
-const {readFile, getRandomVideo, downloadDataIfNeeded} = require("./utils");
+const {readFile, getRandomVideo, isDataDownloaded} = require("./utils");
 
-const PORT = 8080;
+const PORT = 80;
 
 async function main() {
-    // download sponsorblock list
-    await downloadDataIfNeeded();
+    // check if sponsorblock list downloaded
+    if (!isDataDownloaded()){
+        console.error("List not downloaded! Run 'npm run fetch' first!");
+        return;
+    }
 
     // cache index.html
     const indexHtml = readFile("static/index.html");

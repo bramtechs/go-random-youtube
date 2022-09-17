@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js utils.js",
+    "fetch": "node utils.js",
     "start": "node index.js utils.js"
   },
   "repository": {
